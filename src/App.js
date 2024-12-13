@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header";
+import Info from "./components/Info";
 
 function App() {
   return (
     <div className="Nikhil Gupta's Personal Website">
       <header className="App-header">
-        Nikhil Gupta
+        <Header />
       </header>
     </div>
   );
